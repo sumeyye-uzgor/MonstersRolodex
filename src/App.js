@@ -34,6 +34,7 @@ class App extends Component {
         <SearchBox placeholder="Search Monsters" handleChange={this.handleChange} />
         < CardList monsters={filteredMonsters} />
       </div>
+      //comment for deploying
     );
   }
 }
